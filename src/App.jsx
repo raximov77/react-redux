@@ -1,10 +1,13 @@
 import './App.css'
+import CrudTable from "./Crud";
 
 function App() {
  
 
   return (
-    <h1>Hello</h1>
+    <div>
+      <CrudTable/>
+    </div>
   )
 }
 
